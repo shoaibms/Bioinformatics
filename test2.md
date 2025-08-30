@@ -143,15 +143,15 @@ graph TB
     B --> C[Coding Region?]
     B --> D[Regulatory Region?]
     
-    C --> E[Protein Change<br/><em>Missense/Nonsense</em>]
-    E --> F[Structure Impact<br/><strong>AlphaFold2</strong>]
+    C --> E[Protein Change<br/>Missense/Nonsense]
+    E --> F[Structure Impact<br/>AlphaFold2]
     
-    D --> G[eQTL Analysis<br/><em>Gene expression</em>]
-    D --> H[sQTL Analysis<br/><em>Splicing</em>]
-    D --> I[pQTL Analysis<br/><em>Protein levels</em>]
-    D --> J[mQTL Analysis<br/><em>Methylation</em>]
+    D --> G[eQTL Analysis<br/>Gene expression]
+    D --> H[sQTL Analysis<br/>Splicing]
+    D --> I[pQTL Analysis<br/>Protein levels]
+    D --> J[mQTL Analysis<br/>Methylation]
     
-    G --> K[Target Gene(s)]
+    G --> K[Target Genes]
     H --> K
     I --> K
     J --> K
